@@ -1,0 +1,20 @@
+# Ignorar dependencias locales
+node_modules
+npm-debug.log
+pnpm-lock.yaml
+yarn.lock
+
+# Archivos de build
+dist
+.cache
+.tmp
+
+# Configuración o artefactos locales
+.DS_Store
+.env
+.vscode
+.idea
+
+# Docker files
+Dockerfile
+.dockerignore
